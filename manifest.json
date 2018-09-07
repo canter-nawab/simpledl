@@ -4,10 +4,11 @@
     "version":"0.1",
     "author":"Mayank Singh",
      "manifest_version": 2,
+     "web_accessible_resources":["src/youtubedl.js"],
      "content_scripts":[
          {
              "matches":["https://www.youtube.com/watch*"],
-             "js":["src/youtubedl.js"]
+             "js":["src/loader.js"]
          }
      ]
 
